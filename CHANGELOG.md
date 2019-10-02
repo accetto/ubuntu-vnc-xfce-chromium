@@ -6,6 +6,10 @@
 
 ***
 
+### Version 19.10
+
+- Chromium Browser version **77.0.3865.90**
+
 ### Version 19.09
 
 - Initial version with **Chromium Browser** version **76.0.3809.100**
