@@ -1,5 +1,6 @@
 # ./hooks/build dev
 # ./hooks/build dfw
+# ./hooks/build nux
 
 ARG BASETAG=latest
 
@@ -39,17 +40,21 @@ RUN chmod +x \
 
 FROM stage-config as stage-final
 
-LABEL \
-    any.accetto.description="Headless Ubuntu VNC/noVNC container with Xfce desktop and Chromium Browser" \
-    any.accetto.display-name="Headless Ubuntu/Xfce VNC/noVNC container with Firefox and Chromium" \
-    any.accetto.tags="ubuntu, xfce, vnc, novnc, chromium"
-
 ### Arguments can be provided during build
 ARG ARG_REFRESHED_AT
 ARG ARG_VERSION_STICKER
+ARG ARG_VCS_REF
 ARG ARG_VNC_BLACKLIST_THRESHOLD
 ARG ARG_VNC_BLACKLIST_TIMEOUT
 ARG ARG_VNC_RESOLUTION
+
+LABEL \
+    any.accetto.description="Headless Ubuntu VNC/noVNC container with Xfce desktop and Chromium Browser" \
+    any.accetto.display-name="Headless Ubuntu/Xfce VNC/noVNC container with Firefox and Chromium" \
+    any.accetto.tags="ubuntu, xfce, vnc, novnc, chromium" \
+    version-sticker="${ARG_VERSION_STICKER}" \
+    org.label-schema.vcs-ref="${ARG_VCS_REF}" \
+    org.label-schema.vcs-url="https://github.com/accetto/xubuntu-vnc-novnc-chromium"
 
 ENV \
   REFRESHED_AT=${ARG_REFRESHED_AT} \
