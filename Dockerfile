@@ -54,7 +54,7 @@ LABEL \
     any.accetto.tags="ubuntu, xfce, vnc, novnc, chromium" \
     version-sticker="${ARG_VERSION_STICKER}" \
     org.label-schema.vcs-ref="${ARG_VCS_REF}" \
-    org.label-schema.vcs-url="https://github.com/accetto/xubuntu-vnc-novnc-chromium"
+    org.label-schema.vcs-url="https://github.com/accetto/ubuntu-vnc-xfce-chromium"
 
 ENV \
   REFRESHED_AT=${ARG_REFRESHED_AT} \
