@@ -6,6 +6,14 @@
 
 ***
 
+### Version 19.10.3
+
+- README updated
+  - **version sticker** described
+  - new badges added
+- build hooks updated
+  - command line arguments passed to `build` hook
+
 ### Version 19.10.2
 
 - badges re-designed
