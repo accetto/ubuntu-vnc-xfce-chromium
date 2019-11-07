@@ -6,6 +6,12 @@
 
 ***
 
+### Version 19.11
+
+- inherited from the base:
+  - **ubuntu** base image updated
+- Chromium Browser **78.0.3904.70**
+
 ### Version 19.10.4
 
 - inherited from the base:
