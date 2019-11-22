@@ -6,6 +6,10 @@
 
 ***
 
+### Version 19.11.2
+
+- Chromium Browser **78.0.3904.108**
+
 ### Version 19.11.1
 
 - simplified output of `vnc_startup.sh` script (inherited from the base)
