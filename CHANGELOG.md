@@ -6,6 +6,10 @@
 
 ***
 
+### Version 19.11.3
+
+- **TigerVNC** server and client updated to version **1.10.0** (inherited from the base)
+
 ### Version 19.11.2
 
 - Chromium Browser **78.0.3904.108**
