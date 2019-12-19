@@ -6,6 +6,11 @@
 
 ***
 
+### Release 19.12
+
+- **Ubuntu** base image has been updated
+- Chromium Browser **79.0.3945.79**
+
 ### Version 19.11.3
 
 - **TigerVNC** server and client updated to version **1.10.0** (inherited from the base)
