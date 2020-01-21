@@ -6,6 +6,10 @@
 
 ***
 
+### Release 20.01
+
+- **Ubuntu** base image has been updated
+
 ### Release 19.12
 
 - **Ubuntu** base image has been updated
