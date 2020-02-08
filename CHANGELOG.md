@@ -6,6 +6,10 @@
 
 ***
 
+### Release 20.02
+
+- Chromium Browser **79.0.3945.130**
+
 ### Release 20.01
 
 - **Ubuntu** base image has been updated
