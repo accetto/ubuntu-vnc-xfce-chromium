@@ -6,6 +6,13 @@
 
 ***
 
+### Release 20.02.1
+
+- Chromium Browser **80.0.3987.87**
+- desktop launcher for version sticker script (verbose) (inherited from the base)
+- container screenshot updated
+- **README** updated
+
 ### Release 20.02
 
 - Chromium Browser **79.0.3945.130**
