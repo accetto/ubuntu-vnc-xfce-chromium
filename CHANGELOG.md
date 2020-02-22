@@ -6,6 +6,10 @@
 
 ***
 
+### Release 20.02.2
+
+- **Ubuntu** base image updated to version **18.04.4**
+
 ### Release 20.02.1
 
 - Chromium Browser **80.0.3987.87**
