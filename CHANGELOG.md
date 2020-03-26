@@ -6,6 +6,10 @@
 
 ***
 
+### Release 20.03
+
+- **Ubuntu** base image updated (inherited from base)
+
 ### Release 20.02.2
 
 - **Ubuntu** base image updated to version **18.04.4**
