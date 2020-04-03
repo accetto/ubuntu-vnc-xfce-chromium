@@ -6,6 +6,10 @@
 
 ***
 
+### Release 20.04
+
+- Chromium Browser **80.0.3987.149**
+
 ### Release 20.03
 
 - **Ubuntu** base image updated (inherited from base)
