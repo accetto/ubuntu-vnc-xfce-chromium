@@ -6,6 +6,10 @@
 
 ***
 
+### Release 20.04.1
+
+- Chromium Browser **80.0.3987.163**
+
 ### Release 20.04
 
 - Chromium Browser **80.0.3987.149**
