@@ -6,6 +6,14 @@
 
 ***
 
+### Release 20.04.2
+
+- All changes inherited from the base image:
+  - based explicitly on **ubuntu:18.04** tag
+    - note that the tag **latest** now means **based on ubuntu:18.04**
+  - **TigerVNC** version **1.10.1**
+  - **websockify** updated to version **0.9.0**
+
 ### Release 20.04.1
 
 - Chromium Browser **80.0.3987.163**
