@@ -6,6 +6,10 @@
 
 ***
 
+### Release 20.05
+
+- Chromium Browser **81.0.4044.138**
+
 ### Release 20.04.2
 
 - All changes inherited from the base image:
