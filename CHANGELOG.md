@@ -6,6 +6,12 @@
 
 ***
 
+### Release 20.06
+
+- Chromium Browser **83.0.4103.61**
+- minor changes in **README**
+  - making it more similar to [accetto/xubuntu-vnc](https://hub.docker.com/r/accetto/xubuntu-vnc) and [accetto/xubuntu-vnc-novnc](https://hub.docker.com/r/accetto/xubuntu-vnc-novnc)
+
 ### Release 20.05
 
 - Chromium Browser **81.0.4044.138**
