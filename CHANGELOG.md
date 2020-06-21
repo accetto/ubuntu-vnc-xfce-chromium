@@ -6,7 +6,7 @@
 
 ***
 
-### Release 20.06.01
+### Release 20.06.1
 
 - default VNC resolution changed to 1360x768
 - added some help comments into Dockerfile
