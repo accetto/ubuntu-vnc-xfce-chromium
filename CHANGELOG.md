@@ -6,6 +6,11 @@
 
 ***
 
+### Release 20.06.01
+
+- default VNC resolution changed to 1360x768
+- added some help comments into Dockerfile
+
 ### Release 20.06
 
 - Chromium Browser **83.0.4103.61**
