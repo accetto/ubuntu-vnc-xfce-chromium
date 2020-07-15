@@ -6,6 +6,10 @@
 
 ***
 
+### Release 20.07
+
+- base **ubuntu-vnc-xfce** image has been updated
+
 ### Release 20.06.1
 
 - default VNC resolution changed to 1360x768
