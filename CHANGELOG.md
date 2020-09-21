@@ -6,6 +6,11 @@
 
 ***
 
+### Release 20.09
+
+- Chromium Browser **85.0.4183.83**
+- **nano** editor added (inherited from base)
+
 ### Release 20.08.1
 
 - base image has been updated to version **18.04.5**
