@@ -6,6 +6,14 @@
 
 ***
 
+### Release 20.10
+
+- updated scripts (all images):
+  - version_of.sh
+  - version_sticker.sh
+  - util-hdx.sh
+- Chromium Browser **85.0.4183.121**
+
 ### Release 20.09
 
 - Chromium Browser **85.0.4183.83**
