@@ -6,6 +6,10 @@
 
 ***
 
+### Release 20.10.2
+
+- Chromium Browser **86.0.4240.75**
+
 ### Release 20.10.1
 
 - hook scripts updated
