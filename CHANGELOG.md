@@ -6,6 +6,10 @@
 
 ***
 
+### Release 20.12
+
+- Chromium Browser **87.0.4280.66**
+
 ### Release 20.11
 
 - Chromium Browser **86.0.4240.198**
