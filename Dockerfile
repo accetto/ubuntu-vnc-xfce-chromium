@@ -22,7 +22,8 @@ FROM accetto/ubuntu-vnc-xfce:${BASETAG} as stage-install
 USER 0
 
 ### 'apt-get clean' runs automatically
-RUN apt-get update && apt-get install -y \
+RUN apt-get update \
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y \
         chromium-browser \
     && apt-get -y autoremove \
     && rm -rf /var/lib/apt/lists/*
@@ -69,11 +70,11 @@ LABEL \
     org.label-schema.vcs-url="https://github.com/accetto/ubuntu-vnc-xfce-chromium"
 
 ENV \
-  REFRESHED_AT=${ARG_REFRESHED_AT} \
-  VERSION_STICKER=${ARG_VERSION_STICKER} \
-  VNC_BLACKLIST_THRESHOLD=${ARG_VNC_BLACKLIST_THRESHOLD:-20} \
-  VNC_BLACKLIST_TIMEOUT=${ARG_VNC_BLACKLIST_TIMEOUT:-0} \
-  VNC_RESOLUTION=${ARG_VNC_RESOLUTION:-1360x768}
+    REFRESHED_AT=${ARG_REFRESHED_AT} \
+    VERSION_STICKER=${ARG_VERSION_STICKER} \
+    VNC_BLACKLIST_THRESHOLD=${ARG_VNC_BLACKLIST_THRESHOLD:-20} \
+    VNC_BLACKLIST_TIMEOUT=${ARG_VNC_BLACKLIST_TIMEOUT:-0} \
+    VNC_RESOLUTION=${ARG_VNC_RESOLUTION:-1360x768}
 
 ### Preconfigure Xfce
 COPY [ "./src/home/Desktop", "./Desktop/" ]
