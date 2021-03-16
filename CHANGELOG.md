@@ -6,6 +6,10 @@
 
 ***
 
+### Release 20.03
+
+- Chromium Browser **89.0.4389.82**
+
 ### Release 20.12.1
 
 - README got links to the third generation (G3) of images
