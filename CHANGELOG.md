@@ -6,6 +6,10 @@
 
 ***
 
+### Release 21.03.1
+
+- Chromium Browser **89.0.4389.90**
+
 ### Release 21.03
 
 - Chromium Browser **89.0.4389.82**
