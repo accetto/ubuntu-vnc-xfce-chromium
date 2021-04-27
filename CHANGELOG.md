@@ -6,6 +6,10 @@
 
 ***
 
+### Release 21.04.1
+
+- TigerVNC from [Release Mirror on accetto/tigervnc][accetto-tigervnc-release-mirror] because **Bintray** is closing on 2021-05-01 (inherited from the base image)
+
 ### Release 21.04
 
 - Chromium Browser **90.0.4430.72**
@@ -199,6 +203,8 @@
 
 [accetto-docker-argbash-docker]: https://hub.docker.com/r/accetto/argbash-docker
 [accetto-github-argbash-docker]: https://github.com/accetto/argbash-docker
+
+[accetto-tigervnc-release-mirror]: https://github.com/accetto/tigervnc/releases
 
 [mousepad]: https://github.com/codebrainz/mousepad
 [novnc]: https://github.com/kanaka/noVNC
