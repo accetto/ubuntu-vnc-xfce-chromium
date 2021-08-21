@@ -6,6 +6,11 @@
 
 ***
 
+### Release 21.08.1
+
+- utility `builder.sh` improved
+- Chromium Browser **92.0.4515.159**
+
 ### Release 21.08
 
 - Docker Hub has removed auto-builds from free plans since 2021-07-26, therefore
