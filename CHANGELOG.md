@@ -6,6 +6,11 @@
 
 ***
 
+### Release 21.09
+
+- utility `builder.sh` improved
+- Chromium Browser **93.0.4577.63**
+
 ### Release 21.08.1
 
 - utility `builder.sh` improved
