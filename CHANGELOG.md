@@ -6,6 +6,11 @@
 
 ***
 
+### Release 21.10
+
+- base image has been updated to version **18.04.6**
+- Chromium Browser **94.0.4606.71**
+
 ### Release 21.09
 
 - utility `builder.sh` improved
