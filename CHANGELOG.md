@@ -6,6 +6,10 @@
 
 ***
 
+### Release 22.01
+
+- Chromium Browser **97.0.4692.71**
+
 ### Release 21.11
 
 - Chromium Browser **95.0.4638.69**
